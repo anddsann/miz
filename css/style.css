@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'rin';
+    src: url("../tipografia/Rinjany.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+body{
+    min-height: 8500px;
+    background-color: white; 
+    font-family: 'rin';
+    line-height: 15px;
+}
+
+#miz{
+    position: fixed;
+    top: 20px;
+    height: 100vh;
+    width: 100%;
+    z-index: 1;
+}
+
+.ficha{
+    width: 150%;
+    max-width: 12000px;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: max-content max-content;
+    justify-content: space-between;  
+    bottom: 0;
+    left: 1200px;
+    right: 0; 
+    position: fixed;
+    z-index: 2;
+}
+
+.leeme{
+    font-family: 'rin';
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.scroll{
+    width: 100%;
+    max-width: 12000px;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: max-content max-content;
+    justify-content: space-between;  
+    bottom: 580px;
+    left: 10px;
+    right: 0; 
+    position: fixed;
+    transform: rotate(90);
+    z-index: 2;
+    font-family: 'rin';
+    text-decoration: none;
+    font-size: 25px;
+}
